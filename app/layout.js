@@ -1,3 +1,4 @@
+import { FetchProvider } from "./context/AuthContext";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <FetchProvider>
       <body>{children}</body>
+      </FetchProvider>
     </html>
   );
 }

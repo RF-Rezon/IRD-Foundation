@@ -6,8 +6,8 @@ const BodyNav = () => {
      <div className="flex items-center h-[80px] bg-white xl:bg-transparent mb-6 xl:mb-0">
         <div className="basis-[10%] flex items-center text-lg font-medium h-full"><p>দোয়া পেজ</p></div>
         <div className="flex-1  flex items-center justify-end h-full">
-        <div className="relative"><input type="text" placeholder="Search By Dua Name" className="input w-[350px] rounded-md text-sm outline-none border-none focus:outline-cumtomGreen focus:outline-1 bg-cumtomBg xl:bg-white"/>
-        <div className="absolute my-1 mr-1 bottom-0 h-auto top-0 right-0 bg-white xl:bg-cumtomSearchGray  w-[17%] flex items-center justify-center rounded-md cursor-pointer"><CiSearch fill="gray" className="w-5 h-5"/></div>
+        <div className="relative"><input type="text" placeholder="Search By Dua Name" className="input w-[350px] rounded-md text-sm outline-none border-none focus:outline-customGreen focus:outline-1 bg-customBg xl:bg-white"/>
+        <div className="absolute my-1 mr-1 bottom-0 h-auto top-0 right-0 bg-white xl:bg-customSearchGray  w-[17%] flex items-center justify-center rounded-md cursor-pointer"><CiSearch fill="gray" className="w-5 h-5"/></div>
         </div>
         </div>
         <div className="basis-[20%] flex items-center justify-end h-full">

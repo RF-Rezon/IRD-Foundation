@@ -12,7 +12,7 @@ const Nav = () => {
     "https://duaruqyah.com/assets/nav/books.svg"
   ];
   return (
-      <div className="bg-white rounded-t-3xl md:rounded-3xl flex flex-col py-2 h-full">
+      <div className="bg-white rounded-t-3xl md:rounded-3xl flex flex-col py-2 h-full shadow-customShadow md:shadow-none">
         <div className=" basis-[10%] md:flex items-center justify-center hidden">
           <div className="w-[86px] h-[86px] object-cover cursor-pointer">
             <img
@@ -28,7 +28,7 @@ const Nav = () => {
               <NavIcons imageLink={each} />
             ))}
             <div className="md:hidden">
-            <div className="rounded-full bg-cumtomWhiteNavBtn h-9 w-9 flex items-center justify-center cursor-pointer hover:scale-105 transition-all ">
+            <div className="rounded-full bg-customWhiteNavBtn h-9 w-9 flex items-center justify-center cursor-pointer hover:scale-105 transition-all ">
         <div className="w-full h-full object-cover p-2">
           <img
             className="mx-auto"
@@ -41,7 +41,7 @@ const Nav = () => {
           </div>
         </div>
         <div className="basis-[30%] hidden md:flex items-center justify-end">
-          <div className="bg-cumtomGreen w-14 h-14 rounded-md flex items-center justify-center mx-auto cursor-pointer">
+          <div className="bg-customGreen w-14 h-14 rounded-md flex items-center justify-center mx-auto cursor-pointer">
             <FaHandHoldingHeart className="w-6 h-6" fill="white"/>
           </div>
         </div>

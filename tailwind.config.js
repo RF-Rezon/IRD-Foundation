@@ -13,16 +13,20 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'cumtomWhite': '#F7F8FA',
-        'cumtomBlack': '#393939', // base color
-        'cumtomGreen': '#1FA45B',
-        'cumtomWhiteNavBtn': '#E8F0F5',
-        'cumtomGray': '#7E7E7E',
-        'cumtomIcon': '#868686',
-        'cumtomSearchGray':'#F3F4F6',
-        'cumtomBg':'#eaeef3',
+        'customWhite': '#F7F8FA',
+        'customBlack': '#393939', // base color
+        'customGreen': '#1FA45B',
+        'customWhiteNavBtn': '#E8F0F5',
+        'customGray': '#7E7E7E',
+        'customIcon': '#868686',
+        'customSearchGray':'#F3F4F6',
+        'customBg':'#eaeef3',
       },
+      boxShadow: {
+        'customShadow': '0px -12px 15px 0.5px rgba(0, 0, 0, 0.3)',
+      }
     },
+    
   },
   plugins: [require("daisyui"), require('tailwind-scrollbar')],
 };

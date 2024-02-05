@@ -1,4 +1,4 @@
-import Category from "../Category/Category";
+import Category from "../Category/page";
 import CategoryContent from "../CategoryContent/CategoryContent";
 import Settings from "../Settings/Settings";
 
@@ -7,7 +7,7 @@ const BodyContent = () => {
     <>
       <div className="grid gap-4 md:grid-cols-[350px,2fr,0px] 2xl:grid-cols-[350px,1fr,300px]">
         <div className="pb-5 rounded-lg hidden md:block">
-          <Category />
+        <Category />
         </div>
         <div>
           <CategoryContent />
