@@ -1,6 +1,6 @@
 import { FetchContext } from "@/app/context/AuthContext";
 import { useContext, useState } from "react";
-import Duas from "../Duas/page";
+import Duas from "../Duas/Duas";
 
 const Subcategories = () => {
 

@@ -1,9 +1,8 @@
 "use client";
-
 import { FetchContext } from "@/app/context/AuthContext";
 import { useContext, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import Subcategories from "../Subcategories/page";
+import Subcategories from "../Subcategories/Subcategories";
 
 const Category = () => {
   const [selected, setSelected] = useState(false)

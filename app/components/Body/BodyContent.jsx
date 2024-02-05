@@ -1,4 +1,4 @@
-import Category from "../Category/page";
+import Category from "../Category/Category";
 import CategoryContent from "../CategoryContent/CategoryContent";
 import Settings from "../Settings/Settings";
 

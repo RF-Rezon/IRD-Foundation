@@ -42,7 +42,7 @@ const CategoryContent = () => {
             </p>
           </div>
           {duas.map((each) => (
-            <div className="w-full rounded-lg bg-white p-5 px-6">
+            <div key={each.dua_id} className="w-full rounded-lg bg-white p-5 px-6">
               <div className="flex flex-row  justify-start items-center ">
                 <img
                   src="https://duaruqyah.com/assets/duacard.svg"
@@ -106,7 +106,7 @@ const CategoryContent = () => {
                     {isPlaying ? <img className="w-10 h-10 object-cover" src="https://duaruqyah.com/assets/others/pause.svg" /> : <img className="w-10 h-10 object-cover" src="https://duaruqyah.com/assets/others/audiobtn.svg" />}
                   </button>}
                 </div>
-                <div className="h-[50px] w-[25%] mr-3 flex items-center justify-between">
+                <div className="h-[50px] space-x-3 flex items-center justify-between">
                   <img
                     className="w-6 h-6 cursor-pointer m-1"
                     src="https://duaruqyah.com/assets/others/copy.svg"
