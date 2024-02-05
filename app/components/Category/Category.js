@@ -11,8 +11,8 @@ const Category = () => {
 
   const handleOpenSubCat = (id) => {
     setSelected(true)
-    const filtered = s_categories?.filter((each) => each.cat_id == id);
     setSelectedCategory(id)
+    const filtered = s_categories?.filter((each) => each.cat_id == id);
     return setFilteredS_Cat(filtered)
   };
 
@@ -37,7 +37,7 @@ const Category = () => {
         <div className="space-y-5 overflow-y-scroll scrollbar-thumb-black scrollbar-thin max-h-fit">
           
           {categories?.map((each) => (
-            <>
+            
             <div
               onClick={() => handleOpenSubCat(each.cat_id)}
               key={each.cat_id}
@@ -72,7 +72,7 @@ const Category = () => {
               </div>
               { selectedCategory === each.cat_id && <Subcategories />}
             </div>
-            </>
+            
           ))}
         </div>
       </div>

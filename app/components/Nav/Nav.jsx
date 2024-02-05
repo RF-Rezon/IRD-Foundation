@@ -24,8 +24,8 @@ const Nav = () => {
         </div>
         <div className=" flex-1 py-2 md:py-16">
           <div className="gap-y-6 flex flex-row md:flex-col gap-x-4 items-center justify-center">
-            {navIcons.map((each) => (
-              <NavIcons imageLink={each} />
+            {navIcons.map((each, index) => (
+              <NavIcons key={index} imageLink={each} />
             ))}
             <div className="md:hidden">
             <div className="rounded-full bg-customWhiteNavBtn h-9 w-9 flex items-center justify-center cursor-pointer hover:scale-105 transition-all ">
