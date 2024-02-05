@@ -12,7 +12,17 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'cumtomWhite': '#F7F8FA',
+        'cumtomBlack': '#393939', // base color
+        'cumtomGreen': '#1FA45B',
+        'cumtomWhiteNavBtn': '#E8F0F5',
+        'cumtomGray': '#7E7E7E',
+        'cumtomIcon': '#868686',
+        'cumtomSearchGray':'#F3F4F6',
+        'cumtomBg':'#eaeef3',
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require('tailwind-scrollbar')],
 };
