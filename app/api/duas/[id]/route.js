@@ -1,13 +1,14 @@
+import path from 'path';
 import { open } from "sqlite";
 import sqlite3 from "sqlite3";
 
 let db = null;
-
+const dbFilePath = path.join(process.cwd(), 'app', 'database', 'dua_main.sqlite');
 export async function GET(req, res) {
   try {
     if (!db) {
       db = await open({
-        filename: "G:/IRD 3/ird/app/database/dua_main.sqlite",
+        filename: dbFilePath,
         driver: sqlite3.Database,
       });
     }
